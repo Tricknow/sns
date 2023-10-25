@@ -30,3 +30,7 @@ const app = initializeApp(firebaseConfig);
 export const firestore = getFirestore(app);
 /** 이미지만을 저장하기 위한 저장소 */
 export const storage = getStorage(app);
+
+// CRUD
+// create, read, update, delete
+//
